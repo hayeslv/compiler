@@ -24,7 +24,7 @@ export function tokenize(code: string) {
   return tokens;
 }
 
-// 语法解析
+// 语法解析(ast抽象语法树)
 export function parse(tokens) {
   const parser = new Parser(tokens);
 
